@@ -15,3 +15,14 @@
   --roboto: 'Roboto', sans-serif;
   --mono: 'IBM Plex Mono', monospace;
 }
+
+.btn-primary{
+  border-radius: 7px;
+  font-family: var(--roboto);
+  font-size: 1.2rem;
+  color: var(--branco);
+  padding: 0.5rem 1rem;
+  background-color: var(--verde);
+  margin-top: 1rem;
+  width: 10rem;
+}
