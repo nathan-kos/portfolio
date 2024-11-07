@@ -6,6 +6,8 @@
   Color Palette variables
   */
   --verde: #3F8E00;
+  --verde-cloar: #62BA1B;
+  --verde-hover: #62ba1b81;
   --branco: #FFFFFF;
   --preto: #080808;
 
@@ -16,8 +18,12 @@
   --mono: 'IBM Plex Mono', monospace;
 }
 
+body{
+  margin: 0;
+}
+
 .btn-primary{
-  border-radius: 7px;
+  border-radius: 4px;
   font-family: var(--roboto);
   font-size: 1.2rem;
   color: var(--branco);
@@ -25,4 +31,6 @@
   background-color: var(--verde);
   margin-top: 1rem;
   width: 10rem;
+  border: none;
+  box-shadow: 5px 5px 30px var(--verde-hover)
 }
