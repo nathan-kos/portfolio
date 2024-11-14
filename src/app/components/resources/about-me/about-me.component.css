@@ -25,6 +25,11 @@
   gap: 1rem;
 }
 
+.btn{
+  width: 60%;
+  height: 3rem;
+}
+
 .hero {
   display: flex;
   justify-content: center;
