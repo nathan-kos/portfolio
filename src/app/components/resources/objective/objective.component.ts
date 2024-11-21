@@ -5,8 +5,22 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './objective.component.html',
-  styleUrl: './objective.component.css'
+  styleUrl: './objective.component.css',
 })
 export class ObjectiveComponent {
-
+  public goTo(local: string) {
+    switch (local) {
+      case 'E-mail':
+        window.open('mailto:nathanks0210@gmail.com');
+        break;
+      case 'LinkedIn':
+        window.open('https://www.linkedin.com/in/nathan-kosmalski/', '_blank');
+        break;
+      case 'GitHub':
+        window.open('https://github.com/nathan-kos', '_blank');
+        break;
+      default:
+        console.warn('Destino não encontrado:', local);
+    }
+  }
 }
