@@ -14,10 +14,18 @@ export class ObjectiveComponent {
         window.open('mailto:nathanks0210@gmail.com');
         break;
       case 'LinkedIn':
-        window.open('https://www.linkedin.com/in/nathan-kosmalski/', '_blank');
+        window.open(
+          'https://www.linkedin.com/in/nathan-kosmalski/',
+          '_blank',
+          'noopener,noreferrer'
+        );
         break;
       case 'GitHub':
-        window.open('https://github.com/nathan-kos', '_blank');
+        window.open(
+          'https://github.com/nathan-kos',
+          '_blank',
+          'noopener,noreferrer'
+        );
         break;
       default:
         console.warn('Destino não encontrado:', local);
