@@ -40,7 +40,9 @@ p{
   background-color: var(--verde);
   margin-top: 1rem;
   border: none;
-  box-shadow: 5px 5px 30px var(--verde-hover)
+  box-shadow: 5px 5px 30px var(--verde-hover);
+
+  cursor: pointer;
 }
 
 .btn-secundary{
@@ -52,4 +54,6 @@ p{
   border: none;
   box-shadow: 5px 5px 30px var(--verde-hover);
   padding: 0.4rem 0.7rem 0.4rem 0.7rem;
+
+  cursor: pointer;
 }
