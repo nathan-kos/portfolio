@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 100vh;
+  background-color: var(--preto);
+  color: var(--branco);
+}
+
+.studies{
+  display: flex;
+  flex-direction: column;
+
+  height: 45%;
+  width: 90%;
+  padding: 1rem;
+}
+
+.cards{
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  height: 100%;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+  background: linear-gradient(to top right, var(--preto), var(--preto-medio));
+  width: 40%;
+  height: 60%;
+
+  padding: 0.5rem;
+
+  border-radius: 6px;
+  border: 1px solid var(--preto-claro);
+}
+
+.card p{
+  font-family: var(--mono);
+  font-size: large;
+  max-width: 70%;
+}
+
+.courses{
+  height: 45%;
+}
