@@ -1,0 +1,24 @@
+.item {
+  text-align: center;
+  padding: 10px;
+  font-family: var(--mono);
+}
+
+.item img {
+  width: 100%;
+  border-radius: 8px;
+  max-height: 75%;
+  min-height: 75%;
+}
+
+.item h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.item p {
+  color: #555;
+  font-size: 14px;
+}
