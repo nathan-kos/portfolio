@@ -9,6 +9,8 @@
   border-radius: 8px;
   max-height: 75%;
   min-height: 75%;
+
+  cursor: pointer;
 }
 
 .item h3 {
