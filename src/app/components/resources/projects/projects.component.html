@@ -1,0 +1,25 @@
+<div class="container">
+  <h1 class="top">Projetos</h1>
+  <div class="project" *ngFor="let project of projects">
+    <div class="infos">
+      <div class="title">
+        <img src={{project.icon}} alt={{project.alt}}>
+        <h2>{{project.name}}</h2>
+      </div>
+      <p>
+        {{project.description}}
+      </p>
+      <div class="techs">
+        <div class="tech" *ngFor="let tech of project.techs">
+          <img src={{tech.icon}} alt={{tech.alt}}>
+          <h2>{{tech.name}}</h2>
+        </div>
+        <button class="btn-secundary" *ngFor="let link of project.links" (click)="openLink(link.url)">
+          {{link.name}}
+        </button>
+      </div>
+    </div>
+    <!-- carrossel -->
+    <app-project-carousel [imgs]="project.imgs"></app-project-carousel>
+  </div>
+</div>
