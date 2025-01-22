@@ -1,0 +1,36 @@
+.container{
+  background-color: var(--preto);
+  color: var(--branco);
+}
+
+footer{
+  background: linear-gradient(to top right, var(--preto), var(--preto-medio));
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid var(--preto-claro);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 2rem;
+}
+
+footer h1{
+  font-family: var(--roboto);
+  text-align: center;
+}
+
+.contact{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+.link{
+  display: flex;
+  gap: 0.5rem;
+}
