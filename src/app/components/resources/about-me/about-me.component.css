@@ -70,3 +70,50 @@
   border-radius: 6px;
   gap: 0.4rem;
 }
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    min-height: 100vh;
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero {
+    order: -1;
+  }
+
+  .hero img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .data {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .techs {
+    text-align: center;
+  }
+
+  .list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .tech {
+    font-size: 0.8rem;
+    min-width: 80px;
+    flex-direction: column;
+  }
+}
