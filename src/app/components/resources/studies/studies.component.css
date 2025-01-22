@@ -57,3 +57,37 @@
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .studies {
+    width: 100%;
+    padding: none;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: none;
+    min-height: 150px;
+  }
+
+  .courses {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    width: 45%; /* Ajuste para tablets */
+    min-height: 150px;
+  }
+}
