@@ -49,4 +49,8 @@ export class CarouselComponent {
     this.selectedCertificate = src;
     this.showModal = true;
   }
+
+  getCarouselNumVisible() {
+    return window.innerWidth < 768 ? 1 : 2;
+  }
 }
