@@ -83,12 +83,13 @@
   margin: 0 auto;
 
   font-family: var(--mono);
+  list-style-position: inside;
 }
 
 .skills-list li {
   font-size: 1rem;
   border-radius: 6px;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0rem;
   list-style-type: disc;
   text-align: left;
 }
