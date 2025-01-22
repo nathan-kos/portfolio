@@ -19,12 +19,10 @@
 
 .cards{
   display: flex;
-
   align-items: center;
   justify-content: space-between;
-  align-items: stretch; /* Uniformiza alturas */
-
   margin-top: 3rem;
+  gap: 4rem;
 }
 
 .card{
@@ -32,13 +30,8 @@
   justify-content: space-around;
   align-items: center;
 
-
   background: linear-gradient(to top right, var(--preto), var(--preto-medio));
-  width: 40%;
-  min-height: 60%;
-
   padding: 0.5rem;
-
   border-radius: 6px;
   border: 1px solid var(--preto-claro);
 }
@@ -63,3 +56,4 @@
   justify-content: center;
   align-items: center;
 }
+
