@@ -25,16 +25,16 @@
 
 }
 
-body{
+body {
   margin: 0;
   line-height: 1.5;
 }
 
-p{
+p {
   margin: 0;
 }
 
-.btn-primary{
+.btn-primary {
   border-radius: 4px;
   font-family: var(--roboto);
   font-size: 1.2rem;
@@ -48,7 +48,7 @@ p{
   cursor: pointer;
 }
 
-.btn-secundary{
+.btn-secundary {
   border-radius: 4px;
   font-family: var(--roboto);
   font-size: 1.2rem;
@@ -85,4 +85,10 @@ p{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1001;
   padding: 1.7rem;
+}
+
+.custom-timeline .p-timeline-event-connector {
+  background-color: var(--verde);
+  width: 0.3rem;
+  height: 12rem;
 }

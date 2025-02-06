@@ -1,8 +1,14 @@
 <div class="container">
-  <div>
-    <h1>
-      Experiência profissional
-    </h1>
-    <img src="../../../../assets/imgs/experience.png" alt="Experiencias profissionais">
-  </div>
+  <p-timeline [value]="events" class="custom-timeline" align="alternate">
+    <ng-template #marker let-event pTemplate="marker">
+      <div class="marker">
+      </div>
+    </ng-template>
+    <ng-template #content pTemplate="content" let-event>
+      <div class="event">
+        <img [src]="event.icon" [alt]="event.alt" width="50">
+        <h3>{{ event.text }}</h3>
+      </div>
+    </ng-template>
+  </p-timeline>
 </div>
