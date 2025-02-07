@@ -1,0 +1,35 @@
+{
+  "ABOUT-ME": {
+    "SLOGAN": "Exploring the universe of development, turning ideas into reality, one line at a time. Always looking for new challenges to go beyond 🚀✨",
+    "KNOW-ME": "Get to know me better >",
+    "TECHS": "Technologies"
+  },
+  "OBJECTIVE": {
+    "TITLE": "About me",
+    "YEARS": "22 years",
+    "CONTENT-TITLE": "Professional Objective",
+    "CONTENT-TEXT": "I aim to work on projects in which I can use my knowledge for development and growth, thus having the opportunity to improve them in order to continue to constantly grow in my career.",
+    "SKILS-TITLE": "My Skils",
+    "SKILS-LEVEL": "Intermediate English"
+  },
+  "STUDIES": {
+    "TITLE": "Academic Training",
+    "UNIVERSITY": "Systems analysis and development by FATEC - Mogi das Cruzes, 2021 - 2024.",
+    "SCHOOL": "Completion of high school at Silogeu Suzano, 2018 - 2020.",
+    "COUSES-TITLE": "Complementary Courses"
+  },
+  "EXPERIENCE": {
+    "TITLE": "Professional Experience",
+    "MESTRES": "Back-end Developer Web Masters Internship - 03/2023 - 10/2023.",
+    "NEWGO": "Full-stack Developer New go Internship - 11/2023 - 11/2024."
+  },
+  "PROJECTS": {
+    "TITLE": "Projects"
+  },
+  "FOOTER": {
+    "CONTENT": "Tell me about your next project"
+  },
+  "NOT-FOUND": {
+    "BACK": "Back to home"
+  }
+}

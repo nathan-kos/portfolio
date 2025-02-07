@@ -1,0 +1,35 @@
+{
+  "ABOUT-ME": {
+    "SLOGAN": "Explorando o universo do desenvolvimento, transformando ideias em realidade, uma linha de cada vez. Sempre em busca de novos desafios para ir além 🚀✨",
+    "KNOW-ME": "Conheça-me melhor >",
+    "TECHS": "Tecnologias"
+  },
+  "OBJECTIVE": {
+    "TITLE": "Sobre mim",
+    "YEARS": "22 anos",
+    "CONTENT-TITLE": "Objetivo Profissional",
+    "CONTENT-TEXT": "Tenho como objetivo atuar em projetos em que possa utilizar meus conhecimentos para seu desenvolvimento e crescimento, tendo oportunidade assim de aprimora-los de maneira a continuar a crescer constantemente na carreira.",
+    "SKILS-TITLE": "Minhas Competências",
+    "SKILS-LEVEL": "Inglês intermediário"
+  },
+  "STUDIES": {
+    "TITLE": "Formação Acadêmica",
+    "UNIVERSITY": "Análise e desenvolvimento de sistemas pela FATEC - Mogi das Cruzes, 2021 - 2024.",
+    "SCHOOL": "Conclusão do Ensino médio pelo colégio Silogeu Suzano, 2018 - 2020.",
+    "COUSES-TITLE": "Cursos Complementares"
+  },
+  "EXPERIENCE": {
+    "TITLE": "Experiência Profissional",
+    "MESTRES": "Desenvolvedor Back-end Mestres da Web Estágio - 03/2023 - 10/2023.",
+    "NEWGO": "Desenvolvedor Full-stack New go Estágio - 11/2023 - 11/2024."
+  },
+  "PROJECTS": {
+    "TITLE": "Projetos"
+  },
+  "FOOTER": {
+    "CONTENT": "Me conte sobre seu próximo projeto"
+  },
+  "NOT-FOUND": {
+    "BACK": "Voltar a home"
+  }
+}
