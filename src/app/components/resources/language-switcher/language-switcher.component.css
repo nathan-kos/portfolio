@@ -1,0 +1,71 @@
+/* Estilo da estrutura do switch */
+.switch {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  z-index: 1000;
+}
+
+/* Esconde o checkbox padrão */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Estilo do slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--preto-claro);
+  transition: 0.4s;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* Adiciona bandeiras dentro do switch */
+.flag {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-size: 18px;
+  transition: 0.4s;
+}
+
+/* Posição inicial (Português) */
+.flag-pt {
+  left: 5px;
+}
+
+/* Posição final (Inglês) */
+.flag-en {
+  right: 5px;
+  opacity: 0;
+}
+
+/* Quando o switch está ativado (Inglês) */
+input:checked+.slider {
+  background-color: var(--preto-claro);
+}
+
+/* Move a bandeira do inglês para a esquerda quando ativado */
+input:checked+.slider .flag-pt {
+  opacity: 0;
+}
+
+input:checked+.slider .flag-en {
+  opacity: 1;
+}
