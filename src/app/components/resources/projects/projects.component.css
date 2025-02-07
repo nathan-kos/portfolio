@@ -7,12 +7,12 @@
   color: var(--branco);
 }
 
-.top{
+.top {
   width: 80vw;
   font-family: var(--roboto);
 }
 
-.project{
+.project {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -23,7 +23,7 @@
   max-width: 80vw;
 }
 
-.infos{
+.infos {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -40,24 +40,26 @@
   gap: 1rem;
 }
 
-.infos p{
+.infos p {
   font-family: var(--mono);
 }
 
-.title{
+.title {
   display: flex;
   gap: 1rem;
 
   font-family: var(--roboto);
 }
 
-.techs{
+.techs {
   display: flex;
   justify-content: space-between;
   width: 100%;
+
+  flex-wrap: wrap;
 }
 
-.tech{
+.tech {
   padding: 0.5rem;
   display: flex;
   justify-content: center;
