@@ -3,9 +3,10 @@
     <div class="data">
       <h1 class="name">Nathan Kosmalski</h1>
       <p class="slogan">
-        "Explorando o universo do desenvolvimento, transformando ideias em realidade, uma linha de cada vez. Sempre em busca de novos desafios para ir além 🚀✨"
+        <!-- "Explorando o universo do desenvolvimento, transformando ideias em realidade, uma linha de cada vez. Sempre em busca de novos desafios para ir além 🚀✨" -->
+        {{ 'ABOUT-ME.SLOGAN' | translate}}
       </p>
-      <button class="btn-primary btn" (click)="downObjectives()" >Conheça-me melhor ></button>
+      <button class="btn-primary btn" (click)="downObjectives()">{{'ABOUT-ME.KNOW-ME' | translate}}</button>
     </div>
     <div class="hero">
       <img src="../../../../assets/imgs/Nathan.png" alt="Foto do dono do portfólio">
@@ -13,7 +14,7 @@
   </div>
   <div class="techs">
     <h1>
-      Tecnologias
+      {{'ABOUT-ME.TECHS' | translate}}
     </h1>
 
     <div class="list">
