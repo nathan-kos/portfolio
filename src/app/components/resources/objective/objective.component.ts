@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-objective',
   standalone: true,
-  imports: [],
+  imports: [TranslatePipe],
   templateUrl: './objective.component.html',
   styleUrl: './objective.component.css',
 })

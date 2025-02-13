@@ -1,7 +1,7 @@
 <div id="objectives-section" class="container">
   <div class="hero">
     <h1>
-      Sobre mim!
+      {{ 'OBJECTIVE.TITLE' | translate}}
     </h1>
     <img src="../../../../assets/imgs/Foguete.svg" alt="Imagem de um foguete">
   </div>
@@ -9,7 +9,7 @@
     <div class="infos">
       <div class="info">
         <img src="../../../../assets/icons/age.svg" alt="Icone de usuário">
-        <p>22 anos</p>
+        <p>{{ 'OBJECTIVE.YEARS' | translate }} </p>
       </div>
       <div class="info">
         <img src="../../../../assets/icons/location.svg" alt="Icone de localização">
@@ -32,19 +32,19 @@
     </div>
     <div class="objective">
       <h1>
-        Objetivo Profissional
+        {{ 'OBJECTIVE.CONTENT-TITLE' | translate}}
       </h1>
-      <p>Tenho como objetivo atuar em projetos em que possa utilizar  meus conhecimentos para seu desenvolvimento e crescimento,  tendo oportunidade assim de aprimora-los de maneira a continuar  a crescer constantemente na carreira.</p>
+      <p> {{ 'OBJECTIVE.CONTENT-TEXT' | translate}} </p>
     </div>
     <div class="skills">
-      <h1>Minhas Competências</h1>
+      <h1> {{ 'OBJECTIVE.SKILS-TITLE' | translate}} </h1>
       <ul class="skills-list">
         <li>Java, TypeScript, JavaScript, Node.js, Python</li>
         <li>SpringBoot, Angular</li>
         <li>PostgreSQL, ORACLE, MongoDB</li>
         <li>HTML5, CSS3, SCSS</li>
         <li>Git, GitHub, GitLab</li>
-        <li>Inglês intermediário</li>
+        <li>{{ 'OBJECTIVE.SKILS-LEVEL' | translate}}</li>
       </ul>
     </div>
   </div>
