@@ -1,21 +1,21 @@
 <div class="container">
   <div class="studies">
     <h1>
-      Formação Acadêmica
+      {{ 'STUDIES.TITLE' | translate}}
     </h1>
     <div class="cards">
       <div class="card">
         <img src="../../../../assets/icons/study.svg" alt="Icone de estudos">
-        <p>Análise e desenvolvimento de sistemas pela FATEC - Mogi das Cruzes, 2021 - 2024.</p>
+        <p>{{ 'STUDIES.UNIVERSITY' | translate}}</p>
       </div>
       <div class="card">
         <img src="../../../../assets/icons/study.svg" alt="Icone de estudos">
-        <p>Conclusão do Ensino médio pelo colégio Silogeu Suzano, 2018 - 2020.</p>
+        <p>{{ 'STUDIES.SCHOOL' | translate}}</p>
       </div>
     </div>
   </div>
   <div class="courses">
-    <h1>Cursos Complementares</h1>
+    <h1>{{ 'STUDIES.COUSES-TITLE' | translate}}</h1>
     <app-carousel></app-carousel>
   </div>
 </div>
