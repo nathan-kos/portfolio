@@ -30,6 +30,13 @@
   width: 1rem;
 }
 
+.title {
+  font-family: var(--roboto);
+
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
 
 @media (max-width: 768px) {
   .custom-timeline .p-timeline-event-connector {
