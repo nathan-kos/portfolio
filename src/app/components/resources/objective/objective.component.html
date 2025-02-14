@@ -1,0 +1,51 @@
+<div id="objectives-section" class="container">
+  <div class="hero">
+    <h1>
+      {{ 'OBJECTIVE.TITLE' | translate}}
+    </h1>
+    <img src="../../../../assets/imgs/Foguete.svg" alt="Imagem de um foguete">
+  </div>
+  <div class="data">
+    <div class="infos">
+      <div class="info">
+        <img src="../../../../assets/icons/age.svg" alt="Icone de usuário">
+        <p>{{ 'OBJECTIVE.YEARS' | translate }} </p>
+      </div>
+      <div class="info">
+        <img src="../../../../assets/icons/location.svg" alt="Icone de localização">
+        <p>Suzano/SP</p>
+      </div>
+    </div>
+    <div class="links">
+      <div class="btn-secundary link" (click)="goTo('E-mail')">
+        <img src="../../../../assets/icons/email.svg" alt="Icone de Email">
+        <p>E-mail</p>
+      </div>
+      <div class="btn-secundary link" (click)="goTo('LinkedIn')">
+        <img src="../../../../assets/icons/linkedin.svg" alt="Icone do LinkedIn">
+        <p>LinkedIn</p>
+      </div>
+      <div class="btn-secundary link" (click)="goTo('GitHub')">
+        <img src="../../../../assets/icons/github.svg" alt="Icone do GitHub">
+        <p>GitHub</p>
+      </div>
+    </div>
+    <div class="objective">
+      <h1>
+        {{ 'OBJECTIVE.CONTENT-TITLE' | translate}}
+      </h1>
+      <p> {{ 'OBJECTIVE.CONTENT-TEXT' | translate}} </p>
+    </div>
+    <div class="skills">
+      <h1> {{ 'OBJECTIVE.SKILS-TITLE' | translate}} </h1>
+      <ul class="skills-list">
+        <li>Java, TypeScript, JavaScript, Node.js, Python</li>
+        <li>SpringBoot, Angular</li>
+        <li>PostgreSQL, ORACLE, MongoDB</li>
+        <li>HTML5, CSS3, SCSS</li>
+        <li>Git, GitHub, GitLab</li>
+        <li>{{ 'OBJECTIVE.SKILS-LEVEL' | translate}}</li>
+      </ul>
+    </div>
+  </div>
+</div>

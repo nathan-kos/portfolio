@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  color: var(--preto);
+  font-family: var(--roboto);
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+  height: 8rem;
+  gap: 1rem;
+}
+
+.marker {
+  background-color: var(--verde);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+}
+
+.title {
+  font-family: var(--roboto);
+
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
+
+@media (max-width: 768px) {
+  .custom-timeline .p-timeline-event-connector {
+    height: 0.3rem;
+    width: 8rem;
+  }
+
+  .event {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    gap: 0.5rem;
+  }
+
+  .event h3 {
+    margin-top: 0.5rem;
+  }
+}

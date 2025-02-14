@@ -1,0 +1,22 @@
+<p-carousel
+  [value]="courses"
+  [numVisible]="getCarouselNumVisible()"
+  [numScroll]="1"
+  [circular]="true"
+  [autoplayInterval]="3000"
+>
+  <ng-template let-course pTemplate="item">
+    <div class="item">
+      <img [src]="course.image" alt="{{ course.name }}" (click)="openModal(course.image)" />
+      <h3>{{ course.name }}</h3>
+      <p>{{ course.description }}</p>
+    </div>
+  </ng-template>
+</p-carousel>
+
+
+<div *ngIf="showModal" class="modal-overlay" (click)="closeModal()">
+  <div class="modal" (click)="$event.stopPropagation()">
+    <app-certificate-modal [src]="selectedCertificate"></app-certificate-modal>
+  </div>
+</div>

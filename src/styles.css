@@ -1,1 +1,94 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+:root {
+  /*
+  Color Palette variables
+  */
+  --verde: #3F8E00;
+  --verde-cloar: #62BA1B;
+  --verde-hover: #62ba1b81;
+  --branco: #FFFFFF;
+  --preto: #080808;
+  --preto-medio: #222222;
+  --preto-claro: #3B3B3B;
+  --cinza: #D3D3D3;
+
+  /*
+  Font Family variables
+  */
+  --roboto: 'Roboto', sans-serif;
+  --mono: 'IBM Plex Mono', monospace;
+  --sans: 'IBM Plex Sans', sans-serif;
+
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+}
+
+p {
+  margin: 0;
+}
+
+.btn-primary {
+  border-radius: 4px;
+  font-family: var(--roboto);
+  font-size: 1.2rem;
+  color: var(--branco);
+  padding: 0.5rem 1rem;
+  background-color: var(--verde);
+  margin-top: 1rem;
+  border: none;
+  box-shadow: 5px 5px 30px var(--verde-hover);
+
+  cursor: pointer;
+}
+
+.btn-secundary {
+  border-radius: 4px;
+  font-family: var(--roboto);
+  font-size: 1.2rem;
+  color: var(--branco);
+  background-color: var(--verde);
+  border: none;
+  box-shadow: 5px 5px 30px var(--verde-hover);
+  padding: 0.4rem 0.7rem 0.4rem 0.7rem;
+
+  cursor: pointer;
+}
+
+/* modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  width: auto;
+  height: auto;
+  overflow: auto;
+  background: var(--branco);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
+  padding: 1.7rem;
+}
+
+.custom-timeline .p-timeline-event-connector {
+  background-color: var(--verde);
+  width: 0.3rem;
+  height: 12rem;
+}
