@@ -16,7 +16,5 @@ export class AboutMeComponent {
     if (objectiveComponent) {
       objectiveComponent.scrollIntoView({ behavior: 'smooth' });
     }
-
-    this.translate.use("pt")
   }
 }
